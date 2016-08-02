@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D75E83891D509118009090F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D75E83881D509118009090F6 /* main.m */; };
+		D75E838C1D509118009090F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D75E838B1D509118009090F6 /* AppDelegate.m */; };
+		D75E838F1D509118009090F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75E838E1D509118009090F6 /* ViewController.m */; };
+		D75E83921D509118009090F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75E83901D509118009090F6 /* Main.storyboard */; };
+		D75E83941D509118009090F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D75E83931D509118009090F6 /* Assets.xcassets */; };
+		D75E83971D509118009090F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75E83951D509118009090F6 /* LaunchScreen.storyboard */; };
+		D75E83A21D509119009090F6 /* SwizzlingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D75E83A11D509119009090F6 /* SwizzlingDemoTests.m */; };
+		D75E83AD1D509119009090F6 /* SwizzlingDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D75E83AC1D509119009090F6 /* SwizzlingDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D75E839E1D509119009090F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D75E837C1D509118009090F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D75E83831D509118009090F6;
+			remoteInfo = SwizzlingDemo;
+		};
+		D75E83A91D509119009090F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D75E837C1D509118009090F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D75E83831D509118009090F6;
+			remoteInfo = SwizzlingDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D75E83841D509118009090F6 /* SwizzlingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwizzlingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D75E83881D509118009090F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D75E838A1D509118009090F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D75E838B1D509118009090F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D75E838D1D509118009090F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D75E838E1D509118009090F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D75E83911D509118009090F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D75E83931D509118009090F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D75E83961D509118009090F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D75E83981D509119009090F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D75E839D1D509119009090F6 /* SwizzlingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwizzlingDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D75E83A11D509119009090F6 /* SwizzlingDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwizzlingDemoTests.m; sourceTree = "<group>"; };
+		D75E83A31D509119009090F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D75E83A81D509119009090F6 /* SwizzlingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwizzlingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D75E83AC1D509119009090F6 /* SwizzlingDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwizzlingDemoUITests.m; sourceTree = "<group>"; };
+		D75E83AE1D509119009090F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D75E83811D509118009090F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D75E839A1D509119009090F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D75E83A51D509119009090F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D75E837B1D509118009090F6 = {
+			isa = PBXGroup;
+			children = (
+				D75E83861D509118009090F6 /* SwizzlingDemo */,
+				D75E83A01D509119009090F6 /* SwizzlingDemoTests */,
+				D75E83AB1D509119009090F6 /* SwizzlingDemoUITests */,
+				D75E83851D509118009090F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D75E83851D509118009090F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D75E83841D509118009090F6 /* SwizzlingDemo.app */,
+				D75E839D1D509119009090F6 /* SwizzlingDemoTests.xctest */,
+				D75E83A81D509119009090F6 /* SwizzlingDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D75E83861D509118009090F6 /* SwizzlingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D75E838A1D509118009090F6 /* AppDelegate.h */,
+				D75E838B1D509118009090F6 /* AppDelegate.m */,
+				D75E838D1D509118009090F6 /* ViewController.h */,
+				D75E838E1D509118009090F6 /* ViewController.m */,
+				D75E83901D509118009090F6 /* Main.storyboard */,
+				D75E83931D509118009090F6 /* Assets.xcassets */,
+				D75E83951D509118009090F6 /* LaunchScreen.storyboard */,
+				D75E83981D509119009090F6 /* Info.plist */,
+				D75E83871D509118009090F6 /* Supporting Files */,
+			);
+			path = SwizzlingDemo;
+			sourceTree = "<group>";
+		};
+		D75E83871D509118009090F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D75E83881D509118009090F6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D75E83A01D509119009090F6 /* SwizzlingDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D75E83A11D509119009090F6 /* SwizzlingDemoTests.m */,
+				D75E83A31D509119009090F6 /* Info.plist */,
+			);
+			path = SwizzlingDemoTests;
+			sourceTree = "<group>";
+		};
+		D75E83AB1D509119009090F6 /* SwizzlingDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D75E83AC1D509119009090F6 /* SwizzlingDemoUITests.m */,
+				D75E83AE1D509119009090F6 /* Info.plist */,
+			);
+			path = SwizzlingDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D75E83831D509118009090F6 /* SwizzlingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D75E83B11D509119009090F6 /* Build configuration list for PBXNativeTarget "SwizzlingDemo" */;
+			buildPhases = (
+				D75E83801D509118009090F6 /* Sources */,
+				D75E83811D509118009090F6 /* Frameworks */,
+				D75E83821D509118009090F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwizzlingDemo;
+			productName = SwizzlingDemo;
+			productReference = D75E83841D509118009090F6 /* SwizzlingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D75E839C1D509119009090F6 /* SwizzlingDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D75E83B41D509119009090F6 /* Build configuration list for PBXNativeTarget "SwizzlingDemoTests" */;
+			buildPhases = (
+				D75E83991D509119009090F6 /* Sources */,
+				D75E839A1D509119009090F6 /* Frameworks */,
+				D75E839B1D509119009090F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D75E839F1D509119009090F6 /* PBXTargetDependency */,
+			);
+			name = SwizzlingDemoTests;
+			productName = SwizzlingDemoTests;
+			productReference = D75E839D1D509119009090F6 /* SwizzlingDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D75E83A71D509119009090F6 /* SwizzlingDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D75E83B71D509119009090F6 /* Build configuration list for PBXNativeTarget "SwizzlingDemoUITests" */;
+			buildPhases = (
+				D75E83A41D509119009090F6 /* Sources */,
+				D75E83A51D509119009090F6 /* Frameworks */,
+				D75E83A61D509119009090F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D75E83AA1D509119009090F6 /* PBXTargetDependency */,
+			);
+			name = SwizzlingDemoUITests;
+			productName = SwizzlingDemoUITests;
+			productReference = D75E83A81D509119009090F6 /* SwizzlingDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D75E837C1D509118009090F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zhangchaojie;
+				TargetAttributes = {
+					D75E83831D509118009090F6 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					D75E839C1D509119009090F6 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D75E83831D509118009090F6;
+					};
+					D75E83A71D509119009090F6 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D75E83831D509118009090F6;
+					};
+				};
+			};
+			buildConfigurationList = D75E837F1D509118009090F6 /* Build configuration list for PBXProject "SwizzlingDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D75E837B1D509118009090F6;
+			productRefGroup = D75E83851D509118009090F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D75E83831D509118009090F6 /* SwizzlingDemo */,
+				D75E839C1D509119009090F6 /* SwizzlingDemoTests */,
+				D75E83A71D509119009090F6 /* SwizzlingDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D75E83821D509118009090F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75E83971D509118009090F6 /* LaunchScreen.storyboard in Resources */,
+				D75E83941D509118009090F6 /* Assets.xcassets in Resources */,
+				D75E83921D509118009090F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D75E839B1D509119009090F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D75E83A61D509119009090F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D75E83801D509118009090F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75E838F1D509118009090F6 /* ViewController.m in Sources */,
+				D75E838C1D509118009090F6 /* AppDelegate.m in Sources */,
+				D75E83891D509118009090F6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D75E83991D509119009090F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75E83A21D509119009090F6 /* SwizzlingDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D75E83A41D509119009090F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75E83AD1D509119009090F6 /* SwizzlingDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D75E839F1D509119009090F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D75E83831D509118009090F6 /* SwizzlingDemo */;
+			targetProxy = D75E839E1D509119009090F6 /* PBXContainerItemProxy */;
+		};
+		D75E83AA1D509119009090F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D75E83831D509118009090F6 /* SwizzlingDemo */;
+			targetProxy = D75E83A91D509119009090F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D75E83901D509118009090F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D75E83911D509118009090F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D75E83951D509118009090F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D75E83961D509118009090F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D75E83AF1D509119009090F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D75E83B01D509119009090F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D75E83B21D509119009090F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwizzlingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZCJ.SwizzlingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D75E83B31D509119009090F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwizzlingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZCJ.SwizzlingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D75E83B51D509119009090F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwizzlingDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZCJ.SwizzlingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwizzlingDemo.app/SwizzlingDemo";
+			};
+			name = Debug;
+		};
+		D75E83B61D509119009090F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwizzlingDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZCJ.SwizzlingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwizzlingDemo.app/SwizzlingDemo";
+			};
+			name = Release;
+		};
+		D75E83B81D509119009090F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwizzlingDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZCJ.SwizzlingDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwizzlingDemo;
+			};
+			name = Debug;
+		};
+		D75E83B91D509119009090F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwizzlingDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZCJ.SwizzlingDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwizzlingDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D75E837F1D509118009090F6 /* Build configuration list for PBXProject "SwizzlingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D75E83AF1D509119009090F6 /* Debug */,
+				D75E83B01D509119009090F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D75E83B11D509119009090F6 /* Build configuration list for PBXNativeTarget "SwizzlingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D75E83B21D509119009090F6 /* Debug */,
+				D75E83B31D509119009090F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D75E83B41D509119009090F6 /* Build configuration list for PBXNativeTarget "SwizzlingDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D75E83B51D509119009090F6 /* Debug */,
+				D75E83B61D509119009090F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D75E83B71D509119009090F6 /* Build configuration list for PBXNativeTarget "SwizzlingDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D75E83B81D509119009090F6 /* Debug */,
+				D75E83B91D509119009090F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D75E837C1D509118009090F6 /* Project object */;
+}
