@@ -15,6 +15,7 @@
 		D75E83971D509118009090F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75E83951D509118009090F6 /* LaunchScreen.storyboard */; };
 		D75E83A21D509119009090F6 /* SwizzlingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D75E83A11D509119009090F6 /* SwizzlingDemoTests.m */; };
 		D75E83AD1D509119009090F6 /* SwizzlingDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D75E83AC1D509119009090F6 /* SwizzlingDemoUITests.m */; };
+		D75E83BC1D509145009090F6 /* UIViewController+Logging.m in Sources */ = {isa = PBXBuildFile; fileRef = D75E83BB1D509145009090F6 /* UIViewController+Logging.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D75E83A81D509119009090F6 /* SwizzlingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwizzlingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D75E83AC1D509119009090F6 /* SwizzlingDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwizzlingDemoUITests.m; sourceTree = "<group>"; };
 		D75E83AE1D509119009090F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D75E83BA1D509145009090F6 /* UIViewController+Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Logging.h"; sourceTree = "<group>"; };
+		D75E83BB1D509145009090F6 /* UIViewController+Logging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Logging.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				D75E838B1D509118009090F6 /* AppDelegate.m */,
 				D75E838D1D509118009090F6 /* ViewController.h */,
 				D75E838E1D509118009090F6 /* ViewController.m */,
+				D75E83BA1D509145009090F6 /* UIViewController+Logging.h */,
+				D75E83BB1D509145009090F6 /* UIViewController+Logging.m */,
 				D75E83901D509118009090F6 /* Main.storyboard */,
 				D75E83931D509118009090F6 /* Assets.xcassets */,
 				D75E83951D509118009090F6 /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D75E83BC1D509145009090F6 /* UIViewController+Logging.m in Sources */,
 				D75E838F1D509118009090F6 /* ViewController.m in Sources */,
 				D75E838C1D509118009090F6 /* AppDelegate.m in Sources */,
 				D75E83891D509118009090F6 /* main.m in Sources */,
